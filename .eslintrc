@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "parser": "babel-eslint",
+  "plugins": ["html"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "rules": {
+    "one-var": 0,
+    "func-names": 0,
+    "func-style": 0,
+    "sort-keys": 0,
+    "sort-imports": 0,
+    "capitalized-comments": 0
+  }
+}
+// https: //cn.eslint.org/docs/user-guide/configuring
